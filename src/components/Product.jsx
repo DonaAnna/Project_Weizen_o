@@ -4,6 +4,7 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
+
 const Info=styled.div`
 opacity:0;
 width:100%;
@@ -30,7 +31,6 @@ align-items:center;
 justify-content:center;
 background-color:#FBF8E6;
 position:relative;
-
 &:hover ${Info}{
 opacity:1;
 }

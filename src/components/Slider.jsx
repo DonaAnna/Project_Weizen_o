@@ -11,7 +11,6 @@ height:100vh;
 display:flex;
 position:relative;
 overflow:hidden;
-padding:20px;
 `;
 const Arrow = styled.div`
 width: 50px;

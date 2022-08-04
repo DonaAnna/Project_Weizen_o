@@ -1,11 +1,13 @@
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { Badge } from '@mui/material';
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import { mobile } from '../responsive';
 //For Styling Elements styled-components library is used
 const Container = styled.div` 
     height:60px;
+    ${mobile({height:"50px"})}
 `;
 
 const Wrapper = styled.div`
@@ -13,6 +15,8 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items:center;
+    ${mobile({padding:"10px 0px"})}
+
 `;
 
 //Left Side
@@ -21,11 +25,13 @@ flex:1;
 display:flex;
 align-items:center;
 `;
+
 const Language = styled.span`
 font-size:14px;
 cursor:pointer;
-display:flex;
+${mobile({ display:"none" })}
 `;
+
 const SearchContainer = styled.div`
 border: 0.5px solid lightgray;
 display:flex;
@@ -33,9 +39,12 @@ align-items:center;
 margin-left:25px;
 padding:5px;
 `;
+
 const Input = styled.input`
 border:none;
-`
+${mobile({width:"50px"})}
+
+`;
 //Center side
 const Center = styled.div`
 flex:1;
@@ -43,6 +52,8 @@ text-align:center;
 `;
 const Logo = styled.h1`
 font-weight:bold;
+${mobile({fontSize:"24px"})}
+
 `
 const MenuItem = styled.div`
 font-size:14px;

@@ -9,6 +9,7 @@ display:flex;
 align-items:center;
 justify-content:center;
 flex-direction:column;
+background-color:#EBF7CC;
 `;
 const Title = styled.h1`
 font-size:70px;
@@ -35,7 +36,7 @@ padding-left:20px;
 const Button = styled.button`
 flex:1;
 border:none;
-background-color:teal;
+background-color:#a9740e;
 color:white;
 cursor:pointer;
 `;

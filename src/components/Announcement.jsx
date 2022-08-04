@@ -4,14 +4,14 @@ import styled from "styled-components"
 const Container = styled.div`
 height: 30px;
 background-color: #a9740e;   
-align-item:center;
+align-items:center;
 color:white;
 display:flex;
 align-items:center;
 justify-content:center;
 font-size:14px;
-font-weight:500px;
-`
+font-weight:500;
+`;
 const Announcement = () => {
   return (
     <Container>
@@ -20,4 +20,4 @@ const Announcement = () => {
   )
 }
 
-export default Announcement
+export default Announcement;
